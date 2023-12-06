@@ -1,0 +1,158 @@
+1. (!(true && false) || !(true || false)) && ((true && false) && !(true || false)) => true or false
+
+2. (111%11 == 1 && 1*0 == 0) || !(0/1 == 1) || (3695/2 == 1847) => true or false
+	
+3. Berilgan A va B sonlarning qiymatlarini almashtiring. A va B ning yangi qiymatlarini ekranga chiqarilsin. (3- o`zgaruvchini qatnashtirmasdan)
+4. Uchburchaklik shartini tekshirish
+5. Kvadratning bir tomoni berilgan, uni yuzini toping
+6. Aylananing diametri berilgan uning uzunligini hisoblaydigan dastur tuzing (pi = 3.14 deb olinsin)
+7. Berilgan soning kvadratini hisoblab qaytaruvchi dastur tuzing
+8. Ixtiyoriy to`rtburchakning perimetrini hisoblovchi dastur tuzing
+9. Kvadratning bir tomoni berilgan, uni perimetrini hisoblovchi dastur yarating
+
+Homework
+1. To`g`ri to`rtburchakni 2 ta tomoni berilgan, uni yuzini hisoblovchi dastur yarating.
+2. Berilgan soning kubini qaytaradigan dastur tuzing
+3. Doirani radiusi berilgan uni yuzini hisoblovchi dastur tuzing (pi = 3.14 deb olinsin)
+4. To`g`ri to`rtburchakni 2 ta tomoni berilgan, uni perimettrini hisoblovchi dastur yarating.
+5. Shar (Sfera)ning radiusi berilgan, uning yuzi va hajmini hisoblovchi dastur tuzing. (pi = 3.14 deb olinsin)
+
+1. Uch xonali son berilgan. Uning o'nliklar xonasidagi raqam bilan birliklar xonasidagi raqamni almashtirishdan hosil bo'lgan sonni aniqlovchi programma tuzilsin. (Kirish =123; Natija = 132)
+2. 999 dan katta bo`lgan son berilgan. Bir marta bo'lib butunni va bo'lib qoldiqni olish operatsiyasidan foydalanib berilgan sonni yuzliklar xonasidagi sonni aniqlovchi programma tuzilsin.
+3. 999 dan katta bo'lgan son berilgan. Bir marta bo'lib butunni va bo'lib qoldiqni olish operatsiyasidan foydalanib berilgan sonni mingliklar xonasidagi sonni aniqlovchi programma tuzilsin.
+4. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha minut to'la o'tganligini aniqlovchi programma tuzilsin.
+5. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha to'la soat o'tganligini aniqlovchi programma tuzilsin.
+6. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha minut va sekund o'tganini aniqlovchi programma tuzilsin.
+7. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha soat va sekund o'tganini aniqlovchi programma tuzilsin.
+8. Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha soat, minut va sekund o'tganini aniqlovchi programma tuzilsin.
+9. 999 dan katta bo'lgan son berilgan. Bir marta bo'lib butunni va bo'lib qoldiqni olish operatsiyasidan foydalanib berilgan sonni mingliklar xonasidagi sonni aniqlovchi programma tuzilsin.
+
+
+1. Sum of maximum and minimum of given 3 numbers
+2. Distance between two points{x1;y1} and {x2;y2}
+3. Solution of quadratic equation
+4. Fibonacci Number
+
+6. 	Kiritilgan sonning nechchi xonali ekanligini toping (For loop dan foydalanilmasin).
+7.	2 ta son berilgan ularni bir-biriga qo`shing. 
+Masalan: a = 123; b = 456; result = 123456;
+8.	Factorial
+9.	Reverse given number (67243 -> 34276)
+
+
+# Lesson 4
+
+PLAN:
+
+1. mention about string, byte, rune, len and for range
+2. Niladic func (takes no arguments)
+3. Anonym func (with variable)
+4. With return and arguments func
+5. Closure func
+6. scoping variable to if (syntax like in unmarshal or shouldBindJson) with Functions
+
+PRACTICE:
+
+HOMEWORK:
+
+1. Tub sonni topadigan funksiya yarating.
+Input: 25
+Output: Tub emas
+Input: 23
+Output: Tub
+2. Funksiya orqali N sonining (N soni funksiya parametri sifatida ishlatiladi) raqamlarini teskari tartibda chiqaring.
+Input: func(12345)
+Output: 5 4 3 2 1
+3. Funksiya orqali N sonining (N soni funksiya parametri sifatida ishlatiladi) raqamlarini yig'indisini chiqaring.
+Input: func(12345)
+Output: 15
+4. Funksiya orqali 1dan N+1gacha sonlarni 1+2+3+...+N=sum ko'rinishidagi yi'g'indini chiqarib beruvchi funksiya tuzing.
+Input: func(5)
+Output: 1+2+3+4+5=15 
+5. Funksiya orqali A va B oraliqdagi(A va B qiymatlarini hisobga olgan holda) sonlarni agar A<B bo'lsa o'sish tartibida, aks holda esa kamayish tartibida chiqaruvchi funksiya tuzing.
+Input: func(1, 5)
+Output: 1 2 3 4 5
+Input: func(5, 1)
+Output 5 4 3 2 1
+6. Funksiya orqali 1dan Ngacha(N soni funksiya parametri sifatida ishlatiladi) sonlarni juftlarni teskari tartibda chiqaring.
+Input: func(5)
+Output: 4 2
+Input: func(6)
+Output: 4 2
+7. Funksiya parametri sifatida 3ta butun son berilgan va ushbu sonlarni eng kichik va eng katta qiymatlar orasidagi sonni chiqaruvchi funksiya tuzing.
+Input: func(4,3,1)
+Output: 3
+Input: func(2,0,1)
+Output: 1
+8. Funksiya parametri sifatida butun son kiritiladi va ushbu sonning raqamlar yig'indisi juft bo'lsa true qaytaradigan va toq bo'lsa false qaytaradigan funksiya tuzing.
+Input: f(1234)
+Output: true
+Input: f(456)
+Output: false
+9. Funksiya parametri sifatida ikkita butun son berilgan va ushbu sonlarning bo'linmasini qaytaradigan funksiya yozing.
+Input: f(2,3)
+Output: 0.666667
+10. Funksiya parametri sifatida N soni kiritiladi va 1dan Ngacha sonlarning yi'g'indisini qaytaradigan funksiya tuzing.
+Input: f(5)
+Output: 15
+11. Funksiya orqali N sonining (N soni funksiya parametri sifatida ishlatiladi) raqamlarini to'g'ri tartibda chiqaring.
+Input: func(12345)
+Output: 1 2 3 4 5
+12. Funksiya orqali kiritilgan sonning tub bo'luvchilarni chiqaruvchi funksiya tuzing.
+Input: son(24)
+Output: 2 3
+Input: son(25)
+Output: 5
+13. Funksiya parametri sifatida N soni kiritiladi va 1dan Ngacha sonlarning ko'paytmasini qaytaradigan funksiya tuzing.
+Input: f(5)
+Output: 120
+14. Funksiya parametri sifatida a, b va c butun sonlar kiritiladi va a+b ning qiymati c qiymatiga teng bo'lsa funksiya 1ni qaytarsin, aks holda 0ni qaytarsin.
+Input: f(2,3,4)
+Output: 0
+Input: f(1,2,3)
+Output: 1
+15. Funksiya parametri sifatida haqiqiy son va butun son berilgan. Ushbu haqiqiy sonni butun son darajasini topadigan funksiya tuzing.
+Input: f(1.1 , 2)
+Output: 1.21
+Input: f(0.5 , 4)
+Output: 0.0625
+16. Funksiya orqali 1dan Ngacha(N soni funksiya parametri sifatida ishlatiladi) sonlarni toqlarni to'g'ri tartibda chiqaring.
+Input: func(5)
+Output: 1 3
+Input: func(6)
+Output: 1 3 5
+17. 1dan Ngacha Kara-kara jadvalini chiqaruvchi funksiya tuzing.
+Input: N=3
+Output:
+1  *  1 =  1
+1  *  2 =  2
+1  *  3 =  3
+1  *  4 =  4
+1  *  5 =  5
+1  *  6 =  6
+1  *  7 =  7
+1  *  8 =  8
+1  *  9 =  9
+1  * 10 = 10
+    
+    2  *  1 =  2
+    2  *  2 =  4
+    2  *  3 =  6
+    2  *  4 =  8
+    2  *  5 = 10
+    2  *  6 = 12
+    2  *  7 = 14
+    2  *  8 = 16
+    2  *  9 = 18
+    2  * 10 = 20
+    
+    3  *  1 =  3
+    3  *  2 =  6
+    3  *  3 =  9
+    3  *  4 = 12
+    3  *  5 = 15
+    3  *  6 = 18
+    3  *  7 = 21
+    3  *  8 = 24
+    3  *  9 = 27
+    3  * 10 = 30
